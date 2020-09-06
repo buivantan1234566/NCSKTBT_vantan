@@ -2,7 +2,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-int main () {
+int main (void) {
   ofstream myfile;
   myfile.open ("example.txt");
   myfile << "Writing this to a file.\n";
